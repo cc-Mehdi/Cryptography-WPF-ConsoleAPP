@@ -1,0 +1,15 @@
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\bin\Debug\net6.0\Hill Cheaper Encription Algorithm.exe
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\bin\Debug\net6.0\Hill Cheaper Encription Algorithm.deps.json
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\bin\Debug\net6.0\Hill Cheaper Encription Algorithm.runtimeconfig.json
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\bin\Debug\net6.0\Hill Cheaper Encription Algorithm.dll
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\bin\Debug\net6.0\Hill Cheaper Encription Algorithm.pdb
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.csproj.AssemblyReference.cache
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.AssemblyInfoInputs.cache
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.AssemblyInfo.cs
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.dll
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\refint\Hill Cheaper Encription Algorithm.dll
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.pdb
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\Hill Cheaper Encription Algorithm.genruntimeconfig.cache
+C:\Users\xmehd\OneDrive\Desktop\Hill Cheaper Encription Algorithm\Hill Cheaper Encription Algorithm\obj\Debug\net6.0\ref\Hill Cheaper Encription Algorithm.dll

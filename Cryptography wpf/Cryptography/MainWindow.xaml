@@ -1,0 +1,20 @@
+﻿<Window x:Class="Cryptography.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cryptography"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF00414E"/>
+                <GradientStop Color="#FF5B1919" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="label" Content="▄▄▌" HorizontalAlignment="Left" Margin="179,-207,0,0" VerticalAlignment="Top" FontSize="200" Background="Transparent" Foreground="#21FFFFFF"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="198,10,0,0" VerticalAlignment="Top" Height="30" Width="80" FontFamily="Bradley Hand ITC"/>
+
+    </Grid>
+</Window>
