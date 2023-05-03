@@ -18,6 +18,12 @@
             getKey();
             getPlainText();
             getDeterminant();
+            if(determinant == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Key is wrong!");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
             getAdjointKey();
             getKeyReverse();
 
