@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xmehd\\.nuget\\packages\\": {}
+    "C:\\Users\\CC-Mehdi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xmehd\\OneDrive\\Desktop\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm.csproj",
+      "projectUniqueName": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm.csproj",
       "projectName": "Hill Cheaper Encription Algorithm",
-      "projectPath": "C:\\Users\\xmehd\\OneDrive\\Desktop\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm.csproj",
-      "packagesPath": "C:\\Users\\xmehd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xmehd\\OneDrive\\Desktop\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm\\obj\\",
+      "projectPath": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm.csproj",
+      "packagesPath": "C:\\Users\\CC-Mehdi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Hill Cheaper Encription Algorithm\\Hill Cheaper Encription Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xmehd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CC-Mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\CC-Mehdi\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,8 +52,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

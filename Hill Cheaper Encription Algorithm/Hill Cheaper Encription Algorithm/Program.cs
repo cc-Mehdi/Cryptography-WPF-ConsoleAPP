@@ -45,6 +45,7 @@
                 Console.WriteLine();
             }
             Console.WriteLine("--------------------------");
+            Console.ReadKey();
         }
 
         //fill key matrix from user
