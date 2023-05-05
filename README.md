@@ -1,6 +1,40 @@
 # Cryptography
 ### - نرم افزاری برای رمزگزاری و رمزگشایی متن و پیام های شما با الگوریتم های مختلف
 ### - انواع الگریتم های رمزنگاری به صورت مجزا در پلتفرم **Console** در این ریپازیتوری وجود دارد
-![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/image.png) >>> ![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/image2.png)
+![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/image.png) ![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/image2.png)
 ### - همچنین تمامی الگوریتم های رمزنگاری را به صورت یکجا در یک نرم افزار ویندوزی در پلتفرم **WPF** جمع آوری کردیم تا بتوانید متون و پیام های خود را با الگوریتم دلخواه خودتان رمز کنید
+### - بهینه سازی‌ها و افزایش سرعت رمزنگاری و الگوریتم‌‌های قوی‌تر و معروف‌ رمزنگاری هم در توسعه‌های بعدی در این ریپازیتوری اضافه میشوند
 
+## جدول محتوا
+* [تکنولوژی‌ها](#technologies)
+* [راه‌اندازی](#setup)
+* [نحوه استفاده](#use)
+* [امکانات](#features)
+
+## تکنولوژی‌ها
+* سی شارپ - CSharp
+* ویندوز فرم (WPF)
+* کنسول اپ (Console Application)
+
+## راه‌اندازی
+1. برای اجرای این پروژه کافیست این پوشه را در کامپیوتر خود دانلود یا کلون کنید. 
+2. سپس پوشه نرم افزار مورد نظر را انتخاب کنید و به مسیر نام پوشه > پوشه bin > پوشه Debug > پوشه net6.0 یا net6.0-windows > فایل.exe را اجرا کنید
+4. از برنامه لذت ببرید!
+
+## نحوه استفاده
+1. ابتدا درآیه های کلید را وارد کنید
+2. متن یا پیامتان را وارد کنید
+3. انتخاب کنید که میخواهید رمزگذاری کنید یا رمزگشایی و سپس تایید یا اینتر را بزنید
+4. متن جدید را کپی و در جایی که میخواهید پیست کنید
+
+## امکانات
+* استفاده از Clean Code
+* در دو پلتفرم مختلف
+
+
+
+---
+### Mehdi Gholami (ASP) : 
+> Gmail [cc.MehdiGholami@gmail.com](cc.MehdiGholami@gmail.com) &nbsp;&middot;&nbsp;
+> GitHub [@cc-Mehdi](https://github.com/cc-Mehdi) &nbsp;&middot;&nbsp;
+> Twitter [@cc_MehdiGh](https://twitter.com/cc_mehdigh)
