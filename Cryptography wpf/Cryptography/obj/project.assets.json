@@ -8,26 +8,27 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xmehd\\.nuget\\packages\\": {}
+    "C:\\Users\\CC-Mehdi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xmehd\\OneDrive\\Desktop\\Cryptography\\Cryptography\\Cryptography.csproj",
+      "projectUniqueName": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Cryptography wpf\\Cryptography\\Cryptography.csproj",
       "projectName": "Cryptography",
-      "projectPath": "C:\\Users\\xmehd\\OneDrive\\Desktop\\Cryptography\\Cryptography\\Cryptography.csproj",
-      "packagesPath": "C:\\Users\\xmehd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xmehd\\OneDrive\\Desktop\\Cryptography\\Cryptography\\obj\\",
+      "projectPath": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Cryptography wpf\\Cryptography\\Cryptography.csproj",
+      "packagesPath": "C:\\Users\\CC-Mehdi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Cryptography wpf\\Cryptography\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xmehd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CC-Mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\CC-Mehdi\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,8 +52,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,8 +13,92 @@
                 <GradientStop Color="#FF5B1919" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label x:Name="label" Content="▄▄▌" HorizontalAlignment="Left" Margin="179,-207,0,0" VerticalAlignment="Top" FontSize="200" Background="Transparent" Foreground="#21FFFFFF"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="198,10,0,0" VerticalAlignment="Top" Height="30" Width="80" FontFamily="Bradley Hand ITC"/>
+        <Label x:Name="label" Content="▄▄▌" HorizontalAlignment="Left" Margin="177,-179,0,0" VerticalAlignment="Top" FontSize="200" Background="Transparent" Foreground="#21FFFFFF">
+            <Label.Effect>
+                <BlurEffect/>
+            </Label.Effect>
+        </Label>
+        <Button x:Name="btnHillCheaper" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="199,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5A191A"/>
+                    <GradientStop Color="#FF5A191A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00F7FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnHillCheaper_Copy" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="311,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5A191A"/>
+                    <GradientStop Color="#FF5A191A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00F7FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnHillCheaper_Copy1" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="424,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5A191A"/>
+                    <GradientStop Color="#FF5A191A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00F7FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnHillCheaper_Copy2" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="538,23,0,0" VerticalAlignment="Top" Height="32" Width="97" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5A191A"/>
+                    <GradientStop Color="#FF5A191A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00F7FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
+            </Button.Background>
+        </Button>
+        <GroupBox Header="GroupBox" Margin="47,114,492,134"/>
 
     </Grid>
 </Window>
