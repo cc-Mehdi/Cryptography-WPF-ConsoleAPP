@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/cc-Mehdi/Cryptography)
+
 # Cryptography
 ### - نرم افزاری برای رمزگزاری و رمزگشایی متن و پیام های شما با الگوریتم های مختلف
 ### - انواع الگریتم های رمزنگاری به صورت مجزا در پلتفرم **Console** در این ریپازیتوری وجود دارد
