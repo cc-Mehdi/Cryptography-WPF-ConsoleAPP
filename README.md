@@ -3,7 +3,7 @@
 # Cryptography
 ### - نرم افزاری برای رمزگزاری و رمزگشایی متن و پیام های شما با الگوریتم های مختلف
 ### - انواع الگریتم های رمزنگاری به صورت مجزا در پلتفرم **Console** در این ریپازیتوری وجود دارد
-![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/image.png) ![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/image2.png)
+![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/src/image.png) ![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/src/image2.png)
 ### - همچنین تمامی الگوریتم های رمزنگاری را به صورت یکجا در یک نرم افزار ویندوزی در پلتفرم **WPF** جمع آوری کردیم تا بتوانید متون و پیام های خود را با الگوریتم دلخواه خودتان رمز کنید
 ### - بهینه سازی‌ها و افزایش سرعت رمزنگاری و الگوریتم‌‌های قوی‌تر و معروف‌ رمزنگاری هم در توسعه‌های بعدی در این ریپازیتوری اضافه میشوند
 
