@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Cryptography"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid RenderTransformOrigin="0.498,0.619">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF00414E"/>
@@ -98,7 +98,12 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
             </Button.Background>
         </Button>
-        <GroupBox Header="GroupBox" Margin="47,114,492,134"/>
+        <GroupBox Header="Input&#xD;&#xA;" Margin="10,144,456,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
+            <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="your text (a to z)" Width="291" Height="195" RenderTransformOrigin="0.5,0.678" Background="{x:Null}" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16"/>
+        </GroupBox>
+        <GroupBox Header="Output" Margin="456,144,10,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
+            <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Output" Width="291" Height="195" RenderTransformOrigin="0.5,0.678" Background="{x:Null}" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16" IsEnabled="False"/>
+        </GroupBox>
 
     </Grid>
 </Window>
