@@ -1,0 +1,12 @@
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\bin\Debug\net6.0\HillCheaper.deps.json
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\bin\Debug\net6.0\HillCheaper.dll
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\bin\Debug\net6.0\HillCheaper.pdb
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.csproj.AssemblyReference.cache
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.AssemblyInfoInputs.cache
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.AssemblyInfo.cs
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.csproj.CoreCompileInputs.cache
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.dll
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\refint\HillCheaper.dll
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\HillCheaper.pdb
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\HillCheaper\obj\Debug\net6.0\ref\HillCheaper.dll

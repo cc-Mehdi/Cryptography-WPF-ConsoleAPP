@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "HillCheaper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HillCheaper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HillCheaper.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HillCheaper/1.0.0": {
+      "type": "project",
+      "path": "../HillCheaper/HillCheaper.csproj",
+      "msbuildProject": "../HillCheaper/HillCheaper.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "HillCheaper >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CC-Mehdi\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Cryptography wpf\\HillCheaper\\HillCheaper.csproj": {
+              "projectPath": "C:\\Users\\CC-Mehdi\\Desktop\\Cryptography\\Cryptography wpf\\HillCheaper\\HillCheaper.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

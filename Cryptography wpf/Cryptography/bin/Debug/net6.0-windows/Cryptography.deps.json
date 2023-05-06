@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Cryptography/1.0.0": {
+        "dependencies": {
+          "HillCheaper": "1.0.0"
+        },
         "runtime": {
           "Cryptography.dll": {}
+        }
+      },
+      "HillCheaper/1.0.0": {
+        "runtime": {
+          "HillCheaper.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Cryptography/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HillCheaper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

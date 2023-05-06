@@ -18,7 +18,7 @@
                 <BlurEffect/>
             </Label.Effect>
         </Label>
-        <Button x:Name="btnHillCheaper" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="199,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+        <Button x:Name="btnHillCheaper" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="199,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" Click="btnHillCheaper_Click" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -38,7 +38,7 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnHillCheaper_Copy" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="311,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+        <Button x:Name="btnHillCheaper_Copy" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="311,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -58,7 +58,7 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnHillCheaper_Copy1" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="424,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+        <Button x:Name="btnHillCheaper_Copy1" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="424,23,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -78,7 +78,7 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnHillCheaper_Copy2" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="538,23,0,0" VerticalAlignment="Top" Height="32" Width="97" FontFamily="Copperplate Gothic Bold" FontWeight="Bold">
+        <Button x:Name="btnHillCheaper_Copy2" Content="Hill Cheaper" HorizontalAlignment="Left" Margin="538,23,0,0" VerticalAlignment="Top" Height="32" Width="97" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -98,12 +98,157 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.58"/>
             </Button.Background>
         </Button>
-        <GroupBox Header="Input&#xD;&#xA;" Margin="10,144,456,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
-            <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="your text (a to z)" Width="291" Height="195" RenderTransformOrigin="0.5,0.678" Background="{x:Null}" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16"/>
+        <GroupBox Header="Input&#xD;&#xA;" Margin="10,102,480,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
+            <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Width="265" Height="271" RenderTransformOrigin="0.5,0.678" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16" TabIndex="1">
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
         </GroupBox>
-        <GroupBox Header="Output" Margin="456,144,10,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
-            <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Output" Width="291" Height="195" RenderTransformOrigin="0.5,0.678" Background="{x:Null}" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16" IsEnabled="False"/>
+        <GroupBox Header="Output" Margin="516,102,10,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
+            <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Output" Width="235" Height="268" RenderTransformOrigin="0.5,0.678" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16" IsReadOnly="True">
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
         </GroupBox>
-
+        <Grid Margin="330,151,294,33">
+            <TextBox x:Name="txtK1" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="2" TextChanged="txtK1_TextChanged"
+                Margin="0,39,123,152"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK2" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="3" TextChanged="txtK2_TextChanged"
+                Margin="59,39,63,152"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK3" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+                AutomationProperties.HelpText="12" TabIndex="4" TextChanged="txtK3_TextChanged"
+                Margin="120,39,3,152"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK6" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+                AutomationProperties.HelpText="12" TabIndex="7" TextChanged="txtK6_TextChanged"
+                Margin="120,114,3,76"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK7" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+                AutomationProperties.HelpText="12" TabIndex="8" TextChanged="txtK7_TextChanged"
+                Margin="0,191,123,0"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK8" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+                AutomationProperties.HelpText="12" TabIndex="9" TextChanged="txtK8_TextChanged"
+                Margin="59,191,63,0"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK9" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+                AutomationProperties.HelpText="12" TabIndex="10" TextChanged="txtK9_TextChanged"
+                Margin="122,191,0,0"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK4" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="5" TextChanged="txtK4_TextChanged"
+                Margin="0,114,123,76"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtK5" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="6" TextChanged="txtK5_TextChanged"
+                Margin="59,114,63,76"
+                     >
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF227571"/>
+                        <GradientStop Color="#FF810404" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <Label Content="Key" Foreground="#FF11AFC9" FontSize="16" FontWeight="Bold" RenderTransformOrigin="1.382,0.404" VerticalAlignment="Top" Margin="67,0,0,0" HorizontalAlignment="Left"/>
+        </Grid>
+        <Button x:Name="btnEncode" Content="Encode" HorizontalAlignment="Left" Margin="330,119,0,0" VerticalAlignment="Top" Height="32" Width="70" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" Click="btnEncode_Click" Background="#FF35B4B4" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5A191A"/>
+                    <GradientStop Color="#FF5A191A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00F7FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:Name="btnDecode" Content="Decode" HorizontalAlignment="Left" Margin="435,119,0,0" VerticalAlignment="Top" Height="32" Width="70" FontFamily="Copperplate Gothic Bold" FontWeight="Bold" Click="btnDecode_Click" Background="#FFDDDDDD" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5A191A"/>
+                    <GradientStop Color="#FF5A191A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00F7FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
     </Grid>
 </Window>

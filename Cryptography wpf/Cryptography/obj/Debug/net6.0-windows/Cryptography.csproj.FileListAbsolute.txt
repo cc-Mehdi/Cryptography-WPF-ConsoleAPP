@@ -40,3 +40,6 @@ C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\obj\Debug\n
 C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\obj\Debug\net6.0-windows\Cryptography.pdb
 C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\obj\Debug\net6.0-windows\Cryptography.genruntimeconfig.cache
 C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\obj\Debug\net6.0-windows\ref\Cryptography.dll
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\bin\Debug\net6.0-windows\HillCheaper.dll
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\bin\Debug\net6.0-windows\HillCheaper.pdb
+C:\Users\CC-Mehdi\Desktop\Cryptography\Cryptography wpf\Cryptography\obj\Debug\net6.0-windows\Cryptography.csproj.CopyComplete
