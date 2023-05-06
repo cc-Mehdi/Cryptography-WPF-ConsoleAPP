@@ -34,6 +34,12 @@ namespace Cryptography
                 HillCheaper.Program _hillCheaper = new HillCheaper.Program();
                 _hillCheaper.getKey(key);
                 _hillCheaper.getPlainText(txtInput.Text);
+                _hillCheaper.initialize();
+                if (isEncode)
+                    txtOutput.Text = _hillCheaper.resultDecription;
+                else
+                    txtOutput.Text = _hillCheaper.resultEncription;
+                _hillCheaper = new();
             }
             else
                 MessageBox.Show("Please enter all key items and plain text between a, z!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -42,11 +48,11 @@ namespace Cryptography
         private bool checkInputs()
         {
             //check plain text
-            txtInput.Text = txtInput.Text.ToLower();
+            txtInput.Text = txtInput.Text.ToLower().Replace(" ",  "");
             char[] ch = txtInput.Text.ToCharArray();
             for (int i = 0; i < ch.Length; i++)
                 if (ch[i] < 97 || ch[i] > 123)
-                    return false;
+                        return false;
 
             //check key
             for (int i = 0; i < 3; i++)

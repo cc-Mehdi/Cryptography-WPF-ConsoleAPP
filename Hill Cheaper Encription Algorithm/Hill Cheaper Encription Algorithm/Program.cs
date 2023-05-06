@@ -197,11 +197,11 @@
                     resultDecription += Convert.ToChar(decriptedText[i] + 97).ToString();
 
         }
+        //remove extra letters
         private static void correctionExtraCharacters()
         {
             char[] text = resultDecription.ToCharArray();
 
-            //remove extra letters
             for (int i = 0; i < extraLettersCount; extraLettersCount--)
                 text[text.Length - 1] = ' ';
 

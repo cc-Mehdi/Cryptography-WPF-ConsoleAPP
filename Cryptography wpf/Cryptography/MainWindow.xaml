@@ -99,7 +99,7 @@
             </Button.Background>
         </Button>
         <GroupBox Header="Input&#xD;&#xA;" Margin="10,102,480,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
-            <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Width="265" Height="271" RenderTransformOrigin="0.5,0.678" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16" TabIndex="1">
+            <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Width="265" Height="271" RenderTransformOrigin="0.5,0.678" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="16" TabIndex="1">
                 <TextBox.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF227571"/>
@@ -109,7 +109,7 @@
             </TextBox>
         </GroupBox>
         <GroupBox Header="Output" Margin="516,102,10,10" BorderBrush="#FF00FFB5" Foreground="Cyan">
-            <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Output" Width="235" Height="268" RenderTransformOrigin="0.5,0.678" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="16" IsReadOnly="True">
+            <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Output" Width="235" Height="268" RenderTransformOrigin="0.5,0.678" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="16" IsReadOnly="True">
                 <TextBox.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF227571"/>
@@ -119,7 +119,7 @@
             </TextBox>
         </GroupBox>
         <Grid Margin="330,151,294,33">
-            <TextBox x:Name="txtK1" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="2" TextChanged="txtK1_TextChanged"
+            <TextBox x:Name="txtK1" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24" AutomationProperties.HelpText="12" TabIndex="2" TextChanged="txtK1_TextChanged"
                 Margin="0,39,123,152"
                      >
                 <TextBox.Background>
@@ -129,7 +129,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK2" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="3" TextChanged="txtK2_TextChanged"
+            <TextBox x:Name="txtK2" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24" AutomationProperties.HelpText="12" TabIndex="3" TextChanged="txtK2_TextChanged"
                 Margin="59,39,63,152"
                      >
                 <TextBox.Background>
@@ -139,7 +139,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK3" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+            <TextBox x:Name="txtK3" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24"
                 AutomationProperties.HelpText="12" TabIndex="4" TextChanged="txtK3_TextChanged"
                 Margin="120,39,3,152"
                      >
@@ -150,7 +150,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK6" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+            <TextBox x:Name="txtK6" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24"
                 AutomationProperties.HelpText="12" TabIndex="7" TextChanged="txtK6_TextChanged"
                 Margin="120,114,3,76"
                      >
@@ -161,7 +161,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK7" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+            <TextBox x:Name="txtK7" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24"
                 AutomationProperties.HelpText="12" TabIndex="8" TextChanged="txtK7_TextChanged"
                 Margin="0,191,123,0"
                      >
@@ -172,7 +172,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK8" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+            <TextBox x:Name="txtK8" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24"
                 AutomationProperties.HelpText="12" TabIndex="9" TextChanged="txtK8_TextChanged"
                 Margin="59,191,63,0"
                      >
@@ -183,7 +183,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK9" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24"
+            <TextBox x:Name="txtK9" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24"
                 AutomationProperties.HelpText="12" TabIndex="10" TextChanged="txtK9_TextChanged"
                 Margin="122,191,0,0"
                      >
@@ -194,7 +194,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK4" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="5" TextChanged="txtK4_TextChanged"
+            <TextBox x:Name="txtK4" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24" AutomationProperties.HelpText="12" TabIndex="5" TextChanged="txtK4_TextChanged"
                 Margin="0,114,123,76"
                      >
                 <TextBox.Background>
@@ -204,7 +204,7 @@
                     </LinearGradientBrush>
                 </TextBox.Background>
             </TextBox>
-            <TextBox x:Name="txtK5" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF11AFC9" FontSize="24" AutomationProperties.HelpText="12" TabIndex="6" TextChanged="txtK5_TextChanged"
+            <TextBox x:Name="txtK5" TextWrapping="Wrap" BorderBrush="#FF06A8BB" TextAlignment="Left" Foreground="#FF6FE1F4" FontSize="24" AutomationProperties.HelpText="12" TabIndex="6" TextChanged="txtK5_TextChanged"
                 Margin="59,114,63,76"
                      >
                 <TextBox.Background>

@@ -2,16 +2,16 @@
 {
     public class Program
     {
-        static private int[,] key = new int[3, 3];
-        static private int[,] keyReverse = new int[3, 3];
-        static private int[,] adjointKey = new int[3, 3];
-        static private int[] plainText = new int[3];
-        static private int[] encriptedText = new int[3];
-        static private int[] decriptedText = new int[3];
-        static int determinant;
-        static List<string> words = new List<string>();
+        private int[,] key = new int[3, 3];
+        private int[,] keyReverse = new int[3, 3];
+        private int[,] adjointKey = new int[3, 3];
+        private int[] plainText = new int[3];
+        private int[] encriptedText = new int[3];
+        private int[] decriptedText = new int[3];
+        int determinant;
+        List<string> words = new List<string>();
         public string resultEncription = "", resultDecription = "";
-        static int lessCharacterCount = 0, extraLettersCount = 0;
+        int lessCharacterCount = 0, extraLettersCount = 0;
 
 
         //fill key matrix from user
