@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Cryptography
 {
@@ -36,9 +26,9 @@ namespace Cryptography
                 _hillCheaper.getPlainText(txtInput.Text);
                 _hillCheaper.initialize();
                 if (isEncode)
-                    txtOutput.Text = _hillCheaper.resultDecription;
-                else
                     txtOutput.Text = _hillCheaper.resultEncription;
+                else
+                    txtOutput.Text = _hillCheaper.resultDecription;
                 _hillCheaper = new();
             }
             else
@@ -48,11 +38,14 @@ namespace Cryptography
         private bool checkInputs()
         {
             //check plain text
-            txtInput.Text = txtInput.Text.ToLower().Replace(" ",  "");
-            char[] ch = txtInput.Text.ToCharArray();
-            for (int i = 0; i < ch.Length; i++)
-                if (ch[i] < 97 || ch[i] > 123)
+            if (isEncode)
+            {
+                txtInput.Text = txtInput.Text.ToLower().Replace(" ", "");
+                char[] ch = txtInput.Text.ToCharArray();
+                for (int i = 0; i < ch.Length; i++)
+                    if (ch[i] < 97 || ch[i] > 123)
                         return false;
+            }
 
             //check key
             for (int i = 0; i < 3; i++)

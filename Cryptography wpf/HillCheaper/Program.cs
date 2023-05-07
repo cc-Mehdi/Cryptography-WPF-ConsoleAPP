@@ -32,6 +32,7 @@
                 {
                     temp.Remove('?');
                     extraLettersCount++;
+                    i--;
                 }
             }
 
@@ -69,11 +70,6 @@
                 encriptedText[i] %= 26;
             }
             readPlainText(true);
-
-            //add '?' to result for specify the less letters
-            //This is to determine the number of extra letters to remove them later
-            for (int i = 0; i < lessCharacterCount; i++)
-                resultEncription += "?";
         }
         private void getDeterminant()
         {
@@ -173,17 +169,20 @@
         //remove extra letters
         private void correctionExtraCharacters()
         {
-            char[] text = resultDecription.ToCharArray();
+            //add '?' to result for specify the less letters
+            //This is to determine the number of extra letters to remove them later
+            for (int i = 0; i < lessCharacterCount; i++)
+                resultEncription += "?";
 
-            for (int i = 0; i < extraLettersCount; extraLettersCount--)
-                text[text.Length - 1] = ' ';
+            char[] text = resultDecription.ToCharArray();
+            for (int i = 0; extraLettersCount != 0; extraLettersCount--, i++)
+                text[text.Length - (1 + i)] = ' ';
 
 
             if (lessCharacterCount != 0)
                 for (int i = text.Length - 1; i >= 0 && lessCharacterCount-- > 0; i--)
                     text[i] = ' ';
             resultDecription = new String(text).Replace(" ", "");
-
         }
     }
 }
