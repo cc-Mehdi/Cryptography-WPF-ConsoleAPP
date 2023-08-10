@@ -1,10 +1,16 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/cc-Mehdi/Cryptography)
 
 # Cryptography
-### - نرم افزاری برای رمزگزاری و رمزگشایی متن و پیام های شما با الگوریتم های مختلف
-### - انواع الگریتم های رمزنگاری به صورت مجزا در پلتفرم **Console** در این ریپازیتوری وجود دار
-### - همچنین تمامی الگوریتم های رمزنگاری را به صورت یکجا در یک نرم افزار ویندوزی در پلتفرم **WPF** جمع آوری کردیم تا بتوانید متون و پیام های خود را با الگوریتم دلخواه خودتان رمز کنید
-### - بهینه سازی‌ها و افزایش سرعت رمزنگاری و الگوریتم‌‌های قوی‌تر و معروف‌ رمزنگاری هم در توسعه‌های بعدی در این ریپازیتوری اضافه میشوند
+
+#### The software is a versatile Windows application designed to provide secure encryption and decryption of text and messages. It offers an intuitive user interface that allows users to easily input their text, select a preferred encryption method (such as Hill or RSA), and set a secure passphrase or key.
+
+Users can encrypt sensitive information, such as passwords, personal notes, or confidential messages, ensuring that only authorized individuals with the decryption key can access the content. The software employs advanced encryption algorithms and follows best practices for data security, making it suitable for personal and professional use.
+
+In addition to basic encryption and decryption features, the software offer options for generating strong encryption keys, managing encrypted data, and sharing encrypted messages securely with others. Overall, the software provides a user-friendly solution for protecting sensitive text and messages, helping users keep their information confidential and secure.
+
+#### این نرم افزار یک برنامه کاربردی ویندوز همه کاره است که برای رمزگذاری و رمزگشایی ایمن متن و پیام طراحی شده است. این یک رابط کاربری بصری ارائه می دهد که به کاربران امکان می دهد به راحتی متن خود را وارد کنند، یک روش رمزگذاری ترجیحی (مانند Hill یا RSA) را انتخاب کنند و یک کلمه عبور یا کلید امن تنظیم کنند.
+#### کاربران می توانند اطلاعات حساس مانند رمزهای عبور، یادداشت های شخصی یا پیام های محرمانه را رمزگذاری کنند و اطمینان حاصل کنند که فقط افراد مجاز دارای کلید رمزگشایی می توانند به محتوا دسترسی داشته باشند. این نرم افزار از الگوریتم های رمزگذاری پیشرفته استفاده می کند و بهترین شیوه ها را برای امنیت داده ها دنبال می کند و آن را برای استفاده شخصی و حرفه ای مناسب می کند.
+#### علاوه بر ویژگی‌های اساسی رمزگذاری و رمزگشایی، این نرم‌افزار گزینه‌هایی برای تولید کلیدهای رمزگذاری قوی، مدیریت داده‌های رمزگذاری‌شده و به اشتراک‌گذاری پیام‌های رمزگذاری‌شده به‌طور امن با دیگران ارائه می‌دهد. به طور کلی، این نرم افزار راه حلی کاربرپسند برای محافظت از متن ها و پیام های حساس ارائه می دهد و به کاربران کمک می کند اطلاعات خود را محرمانه و ایمن نگه دارند.
 
 ## جدول محتوا
 * [نرم‌افزار](#نرمافزار)
