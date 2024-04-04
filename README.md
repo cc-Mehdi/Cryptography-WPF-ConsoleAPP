@@ -21,7 +21,7 @@ In addition to basic encryption and decryption features, the software offer opti
 
 
 ## نرم‌افزار
-![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/src/image.png) ![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/src/image2.png)
+![Console](https://github.com/cc-Mehdi/Cryptography/blob/main/src/image.png)
 
 
 ## تکنولوژی‌ها
